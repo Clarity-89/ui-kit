@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-const fontFamily = "sans-serif";
+const fontFamily = "Helvetica";
 const fontWeights = {
   light: 300,
   regular: 400,
@@ -12,7 +12,8 @@ font-family ${fontFamily};
 margin: 0;
 padding: 0; 
 -webkit-font-smoothing: antialiased;
-${({ fontWeight }) => fontWeights[fontWeight] || fontWeights.regular};
+font-weight: ${({ fontWeight }) =>
+  fontWeights[fontWeight] || fontWeights.regular}; 
 `;
 
 export const H1 = styled.h1`
