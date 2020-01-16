@@ -6,5 +6,8 @@
     "react-dom": "^16.12.0",
     "styled-components": "^5.0.0"
   },
-  "name": "uikit"
+  "name": "uikit",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
 }
