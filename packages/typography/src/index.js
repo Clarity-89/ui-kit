@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 const fontFamily = "sans-serif";
 const fontWeights = {
-  thin: 300,
+  light: 300,
   regular: 400,
   bold: 600
 };
