@@ -1,7 +1,7 @@
 {
-  "name": "typography",
+  "name": "buttons",
   "version": "1.0.0",
-  "description": "Base fonts",
+  "description": "Button components",
   "main": "dist/index.js",
   "module": "src/index.js",
   "files": [
