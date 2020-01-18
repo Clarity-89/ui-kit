@@ -1,6 +1,12 @@
 {
   "name": "uikit",
   "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "private": true,
   "dependencies": {
     "docz": "^2.2.0",
     "lerna": "^3.20.2",
