@@ -8,11 +8,8 @@
     "dist",
     "CHANGELOG.md"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
-    "@uikit/typography": "1.0.0"
+    "@uikit/typography": "^1.0.0"
   },
   "author": "",
   "license": "MIT"
