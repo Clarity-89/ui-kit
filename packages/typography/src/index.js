@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-const fontFamily = "'Roboto', sans-serif";
+const fontFamily = "'Montserrat', sans-serif";
 const fontWeights = {
   light: 300,
   regular: 400,
