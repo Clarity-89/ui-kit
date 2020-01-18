@@ -1,5 +1,5 @@
 {
-  "name": "buttons",
+  "name": "@uikit/buttons",
   "version": "1.0.0",
   "description": "Button components",
   "main": "dist/index.js",
