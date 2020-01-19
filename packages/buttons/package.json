@@ -1,6 +1,6 @@
 {
   "name": "@uikit/buttons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Button components",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -9,7 +9,7 @@
     "CHANGELOG.md"
   ],
   "dependencies": {
-    "@uikit/typography": "^1.0.0"
+    "@uikit/typography": "^1.0.1"
   },
   "author": "",
   "license": "MIT"
