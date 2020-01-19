@@ -1,10 +1,20 @@
 import React from "react";
-import { Text } from "@uikit/typography";
+import styled from "styled-components";
 
-export const Button = () => {
+import { SmallText } from "@uikit/typography";
+
+export const ButtonSmall = props => {
   return (
-    <button>
-      <Text>Hello</Text>
-    </button>
+    <Button {...props}>
+      <SmallText>Hello</SmallText>
+    </Button>
   );
 };
+
+export const Button = styled.button`
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: white;
+  background-color: dodgerblue;
+  border-color: dodgerblue;
+`;
