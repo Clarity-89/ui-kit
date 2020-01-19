@@ -3,10 +3,10 @@ import styled from "styled-components";
 
 import { SmallText } from "@uikit/typography";
 
-export const ButtonSmall = props => {
+export const ButtonSmall = ({ text, ...props }) => {
   return (
     <Button {...props}>
-      <SmallText>Hello</SmallText>
+      <SmallText>{text}</SmallText>
     </Button>
   );
 };
